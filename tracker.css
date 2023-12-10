@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.come/css2?family=Poppings:wght@300;400;500;600;700;800;900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #fffadd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+.rectangle{
+    height: 200px;
+    width: 400px;
+    background: #ffcc70;
+    place-items: center;
+   
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 140%;
+    transform: translateY(-70%);
+    left: 25px;
+    text-align: center;
+    color: #2266ad;
+}
+.content p{
+    width: 100%;
+    position: absolute;
+    top: 140%;
+    transform: translateY(-70%);
+    left: 20px;
+    text-align: center;
+    color: #000;
+}
+.rectangle{
+    height: 600px;
+    width: 2000px;
+    background: #ffcc70;
+    position: absolute;
+    top: 550px;
+    transform: translateY(-70%);
+    left: -30px;
+}
+.tracker{
+    width: 100%;
+    position: absolute;
+    top: 460px;
+    transform: translateY(-70%);
+    left: -30px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.btn{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #2266ad;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #2266ad;
+    border: 2px solid #fff;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 0%;
+    background-color: #2266ad;
+    z-index: -1;
+    transition: 0.2s;
+}
+span{
+    background: #000;
+    height: 100%;
+    width: 100;
+    
+}
+.content2{
+    width: 100%;
+    position: absolute;
+    top: 470%;
+    transform: translateY(-70%);
+    left: 1px;
+    text-align: center;
+    color: #2266ad;
+}
+.content2 p{
+    width: 100%;
+    position: absolute;
+    top: 280%;
+    transform: translateY(-70%);
+    left: 10px;
+    text-align: center;
+    color: #000;
+}
+.rectangle2{
+    height: 210px;
+    width: 2000px;
+    background: #2266ad;
+    position: absolute;
+    top: 920px;
+    transform: translateY(-70%);
+    left: -30px;
+}
+/*---footer---*/
+#footer{
+    padding: 50px 0 30px;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-left-col{
+    width: 100%;
+    position: absolute;
+    top: 700%;
+    transform: translateY(-70%);
+    left: -850px;
+    text-align: center;
+    color: #fff;
+  
+}
+h4{
+    color: #fff;
+    font-size: 20px;
+}
+small{
+    color: #fff;
+    font-size: 13px;
+}
+.footer-right-col{
+    width: 100%;
+    position: absolute;
+    top: 700%;
+    transform: translateY(-70%);
+    left: -600px;
+    text-align: center;
+    color: #fff;
+}
+.footer-middle{
+    width: 100%;
+    position: absolute;
+    top: 700%;
+    transform: translateY(-70%);
+    left: -350px;
+    text-align: center;
+    color: #fff;
+}
+.footer-last{
+    width: 100%;
+    position: absolute;
+    top: 700%;
+    transform: translateY(-70%);
+    left: -100px;
+    text-align: center;
+    color: #fff;
+}
+.content3{
+    width: 100%;
+    position: absolute;
+    top: 800%;
+    transform: translateY(-70%);
+    left: -10px;
+    text-align: center;
+    color: #fff;
+}
